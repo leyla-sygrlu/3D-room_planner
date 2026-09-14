@@ -1,16 +1,22 @@
-# React + Vite
+# 3D Room Planner 🛋️ (Work in Progress)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web-based 3D room and furniture layout application. Built to practice modern web development, 3D rendering, and state management.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+* **Frontend:** React, JavaScript, HTML, CSS
+* **3D Rendering:** Three.js, React Three Fiber (R3F), React Three Drei
+* **State Management:** Zustand
+* **Build Tool:** Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚧 Current Features
+* Dynamic sidebar with a categorized furniture catalog.
+* Drag and drop 3D furniture models into the scene.
+* Interactive 3D scene controls (zoom, pan, rotate).
 
-## React Compiler
+## 🔜 To-Do
+* [ ] Add room dimensions / wall adjustments panel.
+* [ ] Implement "Build" category (doors, windows, walls, columns).
+* [ ] Add Undo/Redo functionality for object placement.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Designed and developed by Leyla Soyuğurlu
